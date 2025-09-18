@@ -42,3 +42,14 @@ export interface PostModalProps {
   onClose: () => void;
   onSubmit: (post: PostData) => void;
 }
+
+["onSubmit: (post: UserProps) => void;", "export interface UserModalProps"]
+
+import { UserProps } from "./index"; // adjust if needed
+
+export interface UserModalProps {
+  onSubmit: (post: UserProps) => void;
+  isOpen: boolean;
+  onClose: () => void;
+}
+
