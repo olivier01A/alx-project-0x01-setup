@@ -1,3 +1,5 @@
+
+["export interface UserProps", "username: string;", "street: string;", "catchPhrase: string;"]
 export interface PostProps {
   userId: number;
   id: number;
